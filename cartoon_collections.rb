@@ -14,14 +14,16 @@ end
 
 short_words = ["puff", "go", "two"]
 assorted_words = ["two", "go", "industrious", "bop"]
-def long_planeteer_calls(arrays)
+def long_planeteer_calls(array)
   array.any? do |word| 
     word.length > 4 
    end 
 end
 
-
-def find_the_cheese# code an argument here
-  # the array below is here to help
+snacks = ["crackers", "gouda", "thyme"]
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+ingredients = ["garlic", "bread", "rosemary"]
+def find_the_cheese(array)
+ 
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
